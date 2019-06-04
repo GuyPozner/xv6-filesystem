@@ -51,8 +51,8 @@ bigfile(void)
   if(unlink("big.file") < 0){
     printf(1, "unlink big failed\n");
     exit();
-  } else {
-    printf(1, "bigfile test ok\n");
   }
+  printf(1, "bigfile test ok\n");
+  
   
 }
